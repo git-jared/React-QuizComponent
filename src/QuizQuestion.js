@@ -9,11 +9,13 @@ class QuizQuestion extends Component {
       return(
         <main>
           <section>
-            <p>{this.props.instrction_text}</p>
-            <ul>
-              <li>{this.props.quiz_question.answer_options[0]}</li>
-            </ul>
-          </section>
+            <p>{this.props.quiz_question.instruciton_text}</p>
+            </section>
+            <section className = "buttons">
+              <ul>
+                <li>{this.props.quiz_question.answer_options[0]}</li>
+              </ul>
+            </section>
         </main>
       )
   }
