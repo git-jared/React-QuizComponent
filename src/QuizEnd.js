@@ -1,8 +1,8 @@
-import react from "react";
-import Componenet from react
+import React , {Component} from "react";
 
 
-class QuizEnd extends Componenet {
+
+class QuizEnd extends Component {
     render(){
         return (
             <div>
@@ -11,7 +11,6 @@ class QuizEnd extends Componenet {
             </div>
         )
     }
-
 }
 
 export default QuizEnd
